@@ -1,0 +1,878 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr auto;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer"
+    ;
+}
+
+
+/*-----HEADER/NAV-----*/
+
+
+
+
+.header img {
+    width: 150px;
+    height: auto;
+}
+
+.header {
+    padding: 2rem;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.904);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+}
+
+.header div nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header div nav ul li {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.header div nav ul li a {
+    text-decoration: none;
+    color: rgb(34, 203, 209);
+    font-weight: bold;
+    text-shadow: rgb(68, 122, 124) 2px 2px 2px;
+}
+
+
+/*-----MAIN------*/
+
+.main-index {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #0c7a7a;
+    grid-area: main;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    border: solid 2px #0be9d4;
+    text-shadow: #070101 3px 3px 3px;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p {
+    width: 60%;
+}
+
+.hero a {
+    background-color: #737419;
+    text-decoration: none;
+    color: #0be9d4;
+    font-size: 3rem;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.titulo-h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+}
+
+.soluciones {
+    border: solid 2px black;
+    margin: 20px 100px 20px 100px;
+}
+
+.titulo-h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+}
+
+.reuniones {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #b7ded5;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.reuniones img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+}
+
+.imagenes-reuniones {
+    border: solid 3px yellow;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-auto-rows: 350px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.reuniones div .primer-img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.reuniones div div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+
+}
+
+.titulo-reuniones {
+    text-align: center;
+    font-size: 4rem;
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+}
+
+.titulo-encuentros {
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex-mapa {
+    display: flex;
+    align-items: center;
+    margin: 10rem;
+
+
+}
+
+.main-contacto {
+    background-color: #0c7a7a;
+    font-size: 2rem;
+}
+
+.form {
+    text-align: left;
+    padding: 2rem 50% 3rem 3rem;
+    background-color: rgb(47, 141, 145);
+}
+
+.main-historia {
+    background-color: #0c7a7a;
+}
+
+.p-historia {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    color: #070101;
+
+}
+
+.p4-historia {
+    margin-top: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+
+}
+
+.p5-historia {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-his {
+    text-align: center;
+}
+
+.section-his img {
+    height: auto;
+    width: 50%;
+}
+
+.main-modelos {
+    background-color: #0c7a7a;
+    text-align: center;
+}
+
+.main-modelos h2 {
+    text-align: center;
+}
+
+.h1-modelos {
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.h2-modelos {
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.p-modelos {
+    font-size: 2rem;
+    text-align: left;
+    margin: 40px;
+}
+
+.sectionmod {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.sectionmod2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sectionmod img {
+    width: 40%;
+    height: auto;
+}
+
+.sectionmod2 img {
+    width: 40%;
+    height: auto;
+}
+
+
+.main-tutoriales {
+    background-color: #0c7a7a;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.titulo-tutoriales {
+    color: #F6F54D;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-tutoriales div {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    border: solid 2px yellow;
+    border-style: double;
+}
+
+.main-tutoriales div section {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.h2-tutoriales {
+    color: #F6F54D;
+    text-shadow: 2px 2px 2px #070101;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.p-tutoriales {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+
+/*-----FOOTER-----*/
+
+
+.footer {
+    font-size: 1.8rem;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgb(85, 204, 184);
+    grid-area: footer;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer div div img {
+    width: 150px;
+    height: auto;
+}
+
+.footer div .divredes img {
+    width: 7rem;
+    height: auto;
+    padding-left: 2rem;
+}
+
+.divredes {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(85, 204, 184);
+    text-shadow: 2px 2px 2px black;
+    margin-right: 0;
+}
+
+/*responsive*/
+
+/*mobile*/
+
+@media (max-width:450px) {
+
+
+    /*-----HEADER/NAV-----*/
+
+    .header {
+        font-size: 1.7rem;
+        display: grid;
+        justify-content: center;
+    }
+
+    .header div nav ul {
+        display: grid;
+        padding: 1rem;
+    }
+
+    .header div nav ul li {
+        margin: 0;
+        padding: 0.8rem;
+    }
+
+    /*-----MAIN------*/
+
+    .main-index {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        height: vh;
+    }
+
+    .hero p {
+        width: 50%;
+    }
+
+    .hero a {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        padding: 5px;
+        border-radius: 7px;
+    }
+
+    .titulo-h1 {
+        font-size: 3.5rem;
+    }
+
+    .titulo-h2 {
+        font-size: 3rem;
+    }
+
+    .reuniones {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .reuniones img {
+        align-items: flex-end;
+    }
+
+    .imagenes-reuniones {
+        border: none;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-auto-rows: 250px;
+        grid-template-columns: 1fr;
+        row-gap: 5px;
+    }
+
+    .reuniones div .primer-img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .reuniones div div img {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+
+    .titulo-reuniones {
+        display: none;
+    }
+
+    .parrafo-reuniones {
+        display: none;
+    }
+
+    .flex-mapa {
+        display: none;
+    }
+
+    /*CONTACTO*/
+
+.main-contacto {
+    font-size: 1.5rem
+}
+
+.main-contacto section h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.main-contacto section h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.form {
+    text-align: center;
+}
+
+    /*HISTORIA*/
+
+.p-historia {
+    text-align: justify;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.p4-historia {
+    font-size: 1.5rem;
+}
+
+.section-his img {
+    height: auto;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+    /*MODELOS*/
+
+.sectionmod {
+    display: flex;
+    flex-direction:column;
+}
+
+.sectionmod2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-modelos {
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+
+.h2-modelos {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p-modelos {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+}
+
+.sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+    /*TUTORIALES*/
+
+
+.main-tutoriales {
+    padding-top: 2rem;
+}
+
+.titulo-tutoriales {
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.main-tutoriales div {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    border: none;
+    margin-right: 0;
+    text-align: justify;
+}
+
+.main-tutoriales div section {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.main-tutoriales div iframe {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+}
+
+.h2-tutoriales {
+    text-align: left;
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.p-tutoriales {
+    font-size: 1.8rem;
+    padding-top: 0;
+}
+
+    /*-----FOOTER-----*/
+
+
+    .footer {
+        font-size: 1.5rem;
+        padding: 1rem;
+        grid-area: footer;
+    }
+
+    .footer div {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .footer div div img {
+        width: 150px;
+        height: auto;
+    }
+
+    .footer div .divredes img {
+        width: 7rem;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .footer div .divredes {
+        display: flex;
+        padding: 30px;
+    }
+
+    .divredes {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+}
+
+/*tablet*/
+@media (min-width:451px) and (max-width:960px) {
+
+
+    /*-----HEADER/NAV-----*/
+
+    .header {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header div nav ul {
+        display: grid;
+        padding: 1rem;
+    }
+
+    .header div nav ul li {
+        margin: 0;
+        padding: 0.6rem;
+    }
+
+    /*-----MAIN------*/
+
+    .main-index {
+        font-size: 2rem;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero p {
+        width: 50%;
+    }
+
+    .titulo-h1 {
+        font-size: 3.6rem;
+    }
+
+    .titulo-h2 {
+        font-size: 3rem;
+    }
+
+    .reuniones {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .imagenes-reuniones {
+        border: none;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-rows: 350px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+
+    .reuniones div div img {
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+
+    .titulo-reuniones {
+        font-size: 2.5rem;
+    }
+
+    .flex-mapa {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 350px;
+        position: relative;
+        height: 0;
+    }
+
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+
+    /*CONTACTO*/
+
+
+.main-contacto {
+    font-size: 1.8rem;
+}
+
+.main-contacto section h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.8rem;
+}
+
+.main-contacto section h2 {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}
+
+.form {
+    text-align: left;
+    padding: 1rem 50% 2rem 2rem;
+    background-color: rgb(47, 141, 145);
+}
+
+
+    /*HISTORIA*/
+
+.p-historia {
+    font-weight: 100;
+}
+
+.p4-historia {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.section-his img {
+    height: auto;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*MODELOS*/
+
+
+.sectionmod {
+    display: flex;
+    flex-direction:column;
+}
+
+.sectionmod2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-modelos {
+    padding-top: 30px;
+    font-size: 2.8rem;
+}
+
+.h2-modelos {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p-modelos {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+}
+
+.sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+/*TUTORIALES*/
+
+.main-tutoriales {
+    padding-top: 2rem;
+}
+
+.titulo-tutoriales {
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.main-tutoriales div {
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+    margin-right: 0;
+    text-align: justify;
+}
+
+.main-tutoriales div section {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.main-tutoriales div iframe {
+    width: 60%;
+    height: auto;
+    padding: 1rem;
+}
+
+.h2-tutoriales {
+    text-align: left;
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+}
+
+.p-tutoriales {
+    font-size: 2rem;
+    padding-top: 0;
+}
+
+
+
+
+    /*-----FOOTER-----*/
+
+    .footer div {
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer div .divredes {
+        display: flex;
+        padding: 30px;
+    }
+
+    .footer div p {
+        text-align: justify;
+    }
+
+}
