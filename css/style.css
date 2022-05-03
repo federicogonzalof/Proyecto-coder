@@ -60,6 +60,13 @@ html {
     text-shadow: rgb(68, 122, 124) 2px 2px 2px;
 }
 
+.header div nav ul li a:hover {
+    color: aliceblue;
+    text-shadow: none;
+    transition: 1s;
+
+}
+
 
 /*-----MAIN------*/
 
@@ -69,6 +76,11 @@ html {
     text-align: center;
     background-color: #0c7a7a;
     grid-area: main;
+}
+
+.gradient-color{
+    background: rgb(143,144,17);
+    background: radial-gradient(circle, rgba(143,144,17,1) 0%, rgba(14,104,106,0.6558998599439776) 100%);
 }
 
 .hero {
@@ -100,6 +112,34 @@ html {
     border-radius: 10px;
 }
 
+.animacion-boton:hover {
+    animation: change-size 3s;
+}
+
+@keyframes change-size {
+    0%{
+        font-size: 22px;
+    }
+
+    10%{
+        font-size: 25px;
+    }
+
+    20%{
+        font-size: 27px;
+
+    }
+    25%{
+        font-size: 30px;
+    }
+
+    50%{background-color: #0c7a7a;
+
+    }
+    100%{
+        background-color: #0c7a7a;
+}
+}
 
 .titulo-h1 {
     text-align: center;
@@ -138,7 +178,6 @@ html {
 }
 
 .imagenes-reuniones {
-    border: solid 3px yellow;
     text-align: center;
     display: grid;
     grid-template-rows: auto auto auto;
@@ -146,6 +185,11 @@ html {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 20px;
+}
+
+.img-galeria:hover {
+    transform: scale(1.05);
+    
 }
 
 .reuniones div .primer-img {
@@ -175,6 +219,7 @@ html {
 .titulo-encuentros {
     color: #F6F54D;
     text-shadow: 2px 2px 2px black;
+    padding-bottom: 10px;
 }
 
 .flex-mapa {
