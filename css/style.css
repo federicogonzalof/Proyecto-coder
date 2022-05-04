@@ -8,21 +8,16 @@ html {
     font-size: 62.5%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr auto;
-    grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer"
-    ;
-}
-
-
 /*-----HEADER/NAV-----*/
 
+.backgroundnav{
+    background-color: #0e2736;
+}
 
+.logo-twingo {
+        width: 150px;
+        height: auto;
+    }
 
 
 .header img {
