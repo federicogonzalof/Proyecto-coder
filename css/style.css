@@ -11,7 +11,7 @@ html {
 /*-----HEADER/NAV-----*/
 
 .backgroundnav{
-    background-color: #0e2736;
+    background-color: #120907;
 }
 
 .logo-twingo {
@@ -25,43 +25,10 @@ html {
     height: auto;
 }
 
-.header {
-    padding: 2rem;
-    font-size: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.904);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: header;
-}
-
-.header div nav ul {
-    display: flex;
-    list-style: none;
-}
-
-.header div nav ul li {
-    display: inline;
-    margin-left: 2rem;
-}
-
-.header div nav ul li a {
+.nav-item {
     text-decoration: none;
-    color: rgb(34, 203, 209);
-    font-weight: bold;
-    text-shadow: rgb(68, 122, 124) 2px 2px 2px;
+    text-shadow: #d5b84f 1px 1px 1px;
 }
-
-.header div nav ul li a:hover {
-    color: aliceblue;
-    text-shadow: none;
-    transition: 1s;
-
-}
-
 
 /*-----MAIN------*/
 
@@ -220,7 +187,7 @@ html {
 .flex-mapa {
     display: flex;
     align-items: center;
-    margin: 10rem;
+    padding: 10rem;
 
 
 }
