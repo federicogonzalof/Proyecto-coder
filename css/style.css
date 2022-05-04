@@ -36,13 +36,8 @@ html {
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: #0c7a7a;
+    background-color: #553528;
     grid-area: main;
-}
-
-.gradient-color{
-    background: rgb(143,144,17);
-    background: radial-gradient(circle, rgba(143,144,17,1) 0%, rgba(14,104,106,0.6558998599439776) 100%);
 }
 
 .hero {
@@ -76,6 +71,10 @@ html {
 
 .animacion-boton:hover {
     animation: change-size 3s;
+}
+
+p {
+    color:#e5e5e5
 }
 
 @keyframes change-size {
@@ -193,18 +192,18 @@ html {
 }
 
 .main-contacto {
-    background-color: #0c7a7a;
+    background-color: #553528;
     font-size: 2rem;
 }
 
 .form {
     text-align: left;
     padding: 2rem 50% 3rem 3rem;
-    background-color: rgb(47, 141, 145);
+    background-color: #553528;
 }
 
 .main-historia {
-    background-color: #0c7a7a;
+    background-color: #553528;
 }
 
 .p-historia {
@@ -215,8 +214,6 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 200;
     font-size: 1.7rem;
-    color: #070101;
-
 }
 
 .p4-historia {
@@ -241,7 +238,7 @@ html {
 }
 
 .main-modelos {
-    background-color: #0c7a7a;
+    background-color: #553528;
     text-align: center;
 }
 
@@ -294,7 +291,7 @@ html {
 
 
 .main-tutoriales {
-    background-color: #0c7a7a;
+    background-color: #553528;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -754,7 +751,7 @@ html {
 .form {
     text-align: left;
     padding: 1rem 50% 2rem 2rem;
-    background-color: rgb(47, 141, 145);
+    background-color: #553528;
 }
 
 
