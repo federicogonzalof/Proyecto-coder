@@ -17,6 +17,7 @@ html {
 .logo-twingo {
         width: 150px;
         height: auto;
+        padding-left: 30px;
     }
 
 
@@ -28,6 +29,14 @@ html {
 .nav-item {
     text-decoration: none;
     text-shadow: #d5b84f 1px 1px 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #cd4b1c;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 171 46);
 }
 
 /*-----MAIN------*/

@@ -12,38 +12,39 @@
     <title>Amigos del twingo - Historia</title>
 </head>
 
-<body>
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light backgroundnav">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo-twingo"
-                    src="../multimedia/images/iconotwingo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link fs-1 text-uppercase fw-bold" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-1 active text-uppercase fw-bold" aria-current="page" href="../pages/historia.html">historia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/modelos.html">Modelos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/tutoriales.html">Tutoriales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+<body class="container-fluid">
+    <header>
+        <div class="grid-container">
+            <nav class="navbar navbar-expand-lg navbar-light backgroundnav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo-twingo"
+                        src="../multimedia/images/iconotwingo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fs-1 text-uppercase fw-bold" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1 active text-uppercase fw-bold" aria-current="page" href="../pages/historia.html">historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/modelos.html">Modelos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/tutoriales.html">Tutoriales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-1 text-uppercase fw-bold" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
     <main class="main-historia gradient-color">
         <section class="section-his">
             <article>
@@ -90,7 +91,33 @@
 
                 <p class="p5-historia">FSM BESKID. EL COCHE POLACO QUE INSPIRÓ LA CREACIÓN DEL RENAULT TWINGO</p>
             </article>
-            <img src="../multimedia/images/beskid.jpg" alt="Beskid106">
+            
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://1.bp.blogspot.com/-gsKt5WWeYmM/X2M3xkjlV5I/AAAAAAAAUks/y4dqlEjWj640rIIqLsVYEse3qL4yvPUzwCLcBGAsYHQ/w640-h426/5a12d1dcb65cf_p.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://1.bp.blogspot.com/-80jBtlCjk1o/X2Mf62rAy1I/AAAAAAAAUkM/YrxZKFOuD0ckTuq5Fz8arXZuF8hpCxNHQCLcBGAsYHQ/w640-h424/Renault-w60.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://1.bp.blogspot.com/-50S6726n440/X2M3nlOFkXI/AAAAAAAAUkk/BYorF3VHfg4y9kQEkBJTx7I1zdkt9eSOwCLcBGAsYHQ/w640-h426/FSM_Beskid_106_-_ty%25C5%2582_-_BOSMAL.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
     </main>
