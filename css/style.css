@@ -312,16 +312,6 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main-tutoriales div {
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr 1fr;
-    border: solid 2px yellow;
-    border-style: double;
-}
-
 .main-tutoriales div section {
     padding-left: 3rem;
     padding-bottom: 2rem;
@@ -341,6 +331,7 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     padding-top: 2rem;
+    align-items: center;
 }
 
 
