@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #120907;
+}
+header .navbar-toggler {
+  background-color: #cd4b1c;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+header .navbar-toggler:hover {
+  background-color: #F6F54D;
+  transition: 1s;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #cd4b1c;
+}
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(255, 171, 46);
+}
+header nav {
+  color: #cd4b1c;
+}
+header nav div a img {
+  width: 150px;
+  height: auto;
+  padding-left: 30px;
+}
+header nav div div ul li {
+  text-decoration: none;
+  text-shadow: #d5b84f 1px 1px 1px;
+}
+header nav div div ul li a {
+  color: rgb(255, 171, 46);
+}
+
+footer {
+  font-size: 1.8rem;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.904);
+  color: rgb(85, 204, 184);
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div .divlogo {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+footer div .divlogo a img {
+  width: 150px;
+  height: auto;
+}
+footer div div {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(85, 204, 184);
+  text-shadow: 2px 2px 2px black;
+  margin-right: 0;
+}
+footer div div a img {
+  width: 7rem;
+  height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media screen and (max-width: 480px) {
+  footer div div {
+    display: flex;
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+@media (min-width: 451px) and (max-width: 960px) {
+  footer div div {
+    display: flex;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer div {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (min-width: 451px) and (max-width: 960px) {
+  footer div {
+    display: grid;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+main {
+  background-color: #553528;
+}
+main section {
+  text-align: center;
+}
+main section img {
+  height: auto;
+  width: 50%;
+}
+main section article {
+  color: aliceblue;
+}
+main section article .p-historia {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+main section article .p-historia::first-letter {
+  float: left;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0.2rem;
+  margin-right: 0.6rem;
+  padding: 1rem;
+  background: #e68d08;
+  border: 0.2rem solid black;
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  main section article .p-historia::first-letter {
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  main section article .p-historia::first-letter {
+    font-size: 2rem;
+    padding: 0.3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  main section article .p-historia {
+    text-align: justify;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  main section article .p-historia {
+    font-weight: 100;
+    text-align: justify;
+  }
+}
+main section article .p4-historia {
+  margin-top: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 450px) {
+  main section article .p4-historia {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  main section article .p4-historia {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+}
+main section article .p5-historia {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 450px) {
+  main section article .p5-historia {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
