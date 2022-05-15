@@ -1,0 +1,169 @@
+.main-index {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: nth($colores, 5);
+
+    .hero {
+        width: 100%;
+        height: 80vh;
+        border: solid 2px #0be9d4;
+        text-shadow: #070101 3px 3px 3px;
+        color: #fafafa;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            text-align: center;
+            font-size: 5rem;
+            font-weight: bold;
+            color: nth($colores, 7);
+            text-shadow: 2px 2px 2px black;
+        }
+
+        p {
+            width: 60%;
+        }
+
+        a {
+            background-color: #553528;
+            text-decoration: none;
+            color: #0be9d4;
+            font-size: 3rem;
+            margin-top: 3rem;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .animacion-boton:hover {
+            animation: change-size 3s;
+        }
+
+        @keyframes change-size {
+            0% {
+                font-size: 22px;
+            }
+
+            10% {
+                font-size: 25px;
+            }
+
+            20% {
+                font-size: 27px;
+
+            }
+
+            25% {
+                font-size: 30px;
+            }
+
+            50% {
+                background-color: #0c7a7a;
+
+            }
+
+            100% {
+                background-color: #0c7a7a;
+            }
+        }
+
+    }
+
+    section {
+        h2 {
+            font-size: 4rem;
+            color: #F6F54D;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        p {
+            color: #e5e5e5
+        }
+    }
+
+    .reuniones {
+        font-size: 2.5rem;
+        text-align: center;
+        color: #b7ded5;
+        text-shadow: 2px 2px 2px black;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        img {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            align-items: center;
+        }
+
+        h2 {
+            padding: 20px;
+        }
+
+        .imagenes-reuniones {
+
+            text-align: center;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-auto-rows: 350px;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+        .primer-img {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+
+        div {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+                -webkit-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+                -moz-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+
+                &:hover {
+                    transform: scale(1.05);
+                    transition: 1s;
+                }
+            }
+        }
+
+
+
+    }
+
+    .flex-mapa {
+        display: flex;
+        align-items: center;
+        padding: 10rem;
+        div {
+            
+            h2 {}
+
+            p {}
+
+            p {}
+        }
+
+        div {
+            iframe {}
+        }
+    }
+
+
+
+
+
+}

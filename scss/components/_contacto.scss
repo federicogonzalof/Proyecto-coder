@@ -1,0 +1,29 @@
+.main-contacto {
+    background-color: #553528;
+    font-size: 2rem;
+
+    .contactanos {
+        h1 {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            text-align: center;
+            font-size: 3rem;
+            color: yellow;
+            ;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: nth($colores,8);
+            text-shadow: 2px 2px 2px #070101;
+        }
+    }
+
+    .form {
+        padding: 3rem 20% 3rem 20%;
+        color: yellow;
+        border: 2px 2px 2px #e68d08;
+        text-align: left;
+    }
+
+}

@@ -328,4 +328,146 @@ main section article .p5-historia {
   align-items: center;
 }
 
+.main-index {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-color: #553528;
+}
+.main-index .hero {
+  width: 100%;
+  height: 80vh;
+  border: solid 2px #0be9d4;
+  text-shadow: #070101 3px 3px 3px;
+  color: #fafafa;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-index .hero h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fafafa;
+  text-shadow: 2px 2px 2px black;
+}
+.main-index .hero p {
+  width: 60%;
+}
+.main-index .hero a {
+  background-color: #553528;
+  text-decoration: none;
+  color: #0be9d4;
+  font-size: 3rem;
+  margin-top: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+.main-index .hero .animacion-boton:hover {
+  animation: change-size 3s;
+}
+@keyframes change-size {
+  0% {
+    font-size: 22px;
+  }
+  10% {
+    font-size: 25px;
+  }
+  20% {
+    font-size: 27px;
+  }
+  25% {
+    font-size: 30px;
+  }
+  50% {
+    background-color: #0c7a7a;
+  }
+  100% {
+    background-color: #0c7a7a;
+  }
+}
+.main-index section h2 {
+  font-size: 4rem;
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+}
+.main-index section p {
+  color: #e5e5e5;
+}
+.main-index .reuniones {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #b7ded5;
+  text-shadow: 2px 2px 2px black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.main-index .reuniones img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  align-items: center;
+}
+.main-index .reuniones h2 {
+  padding: 20px;
+}
+.main-index .reuniones .imagenes-reuniones {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-auto-rows: 350px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.main-index .reuniones .primer-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.main-index .reuniones div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
+}
+.main-index .reuniones div img:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+.main-index .flex-mapa {
+  display: flex;
+  align-items: center;
+  padding: 10rem;
+}
+.main-contacto {
+  background-color: #553528;
+  font-size: 2rem;
+}
+.main-contacto .contactanos h1 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  color: yellow;
+}
+.main-contacto .contactanos h2 {
+  font-size: 2.5rem;
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px #070101;
+}
+.main-contacto .form {
+  padding: 3rem 20% 3rem 20%;
+  color: yellow;
+  border: 2px 2px 2px #e68d08;
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
