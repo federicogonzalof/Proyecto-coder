@@ -18,16 +18,34 @@
         justify-content: center;
         align-items: center;
 
+
+
         h1 {
             text-align: center;
             font-size: 5rem;
             font-weight: bold;
             color: nth($colores, 7);
             text-shadow: 2px 2px 2px black;
+
+            @media screen and (max-width:450px) {
+                font-size: 3.5rem;
+            }
+
+            @media screen and (min-width:451px) and (max-width:960px) {
+                font-size: 3.6rem;
+            }
         }
 
         p {
             width: 60%;
+
+            @media screen and (max-width:450px) {
+                width: 50%;
+            }
+
+            @media screen and (min-width:451px) and (max-width:960px) {
+                width: 50%;
+            }
         }
 
         a {
@@ -38,7 +56,15 @@
             margin-top: 3rem;
             padding: 10px;
             border-radius: 10px;
+
+            @media screen and (max-width:450px) {
+                font-size: 2.5rem;
+                margin-top: 2.5rem;
+                padding: 5px;
+                border-radius: 7px;
+            }
         }
+
 
         .animacion-boton:hover {
             animation: change-size 3s;
@@ -79,6 +105,14 @@
             font-size: 4rem;
             color: #F6F54D;
             text-shadow: 2px 2px 2px black;
+
+            @media screen and (max-width:450px) {
+                font-size: 3rem;
+            }
+
+            @media screen and (min-width:451px) and (max-width:960px) {
+                font-size: 3rem;
+            }
         }
 
         p {
@@ -94,11 +128,17 @@
         margin-left: 100px;
         margin-right: 100px;
 
+
         img {
             width: 100%;
             height: auto;
             padding: 5px;
             align-items: center;
+
+            @media screen and (max-width:450px) {
+                align-items: flex-end;
+            }
+
         }
 
         h2 {
@@ -114,6 +154,26 @@
             grid-template-columns: repeat(3, 1fr);
             column-gap: 20px;
             row-gap: 20px;
+
+            @media screen and (max-width:450px) {
+                border: none;
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-auto-rows: 250px;
+                grid-template-columns: 1fr;
+                row-gap: 5px;
+            }
+
+            @media screen and (min-width:451px) and (max-width:960px) {
+
+                border: none;
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-auto-rows: 350px;
+                grid-template-columns: 1fr 1fr;
+                row-gap: 5px;
+                column-gap: 5px;
+            }
         }
 
         .primer-img {
@@ -121,6 +181,13 @@
             grid-column-end: 3;
             grid-row-start: 1;
             grid-row-end: 3;
+
+            @media screen and (max-width:450px) {
+                grid-column-start: 1;
+                grid-column-end: 1;
+                grid-row-start: 1;
+                grid-row-end: 1;
+            }
         }
 
 
@@ -133,6 +200,19 @@
                 -webkit-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
                 -moz-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
 
+                @media screen and (max-width:450px) {
+                    width: 100%;
+                    height: 100%;
+                    box-shadow: none;
+
+                    @media screen and (min-width:451px) and (max-width:960px) {
+
+                        width: 100%;
+                        height: 100%;
+                        box-shadow: none;
+                    }
+                }
+
                 &:hover {
                     transform: scale(1.05);
                     transition: 1s;
@@ -140,7 +220,16 @@
             }
         }
 
+        @media screen and (max-width:450px) {
+            font-size: 2rem;
+            margin: 0;
+        }
 
+        @media screen and (min-width:451px) and (max-width:960px) {
+
+            font-size: 2rem;
+            margin: 0;
+        }
 
     }
 
@@ -148,22 +237,33 @@
         display: flex;
         align-items: center;
         padding: 10rem;
-        div {
-            
-            h2 {}
 
-            p {}
-
-            p {}
+        .map-responsive {
+            @media screen and (min-width:451px) and (max-width:960px) {
+                overflow: hidden;
+                padding-bottom: 350px;
+                position: relative;
+                height: 0;
+            }
         }
 
-        div {
-            iframe {}
+        @media screen and (max-width:450px) {
+            display: none;
+        }
+
+        @media screen and (min-width:451px) and (max-width:960px) {
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 
+    @media screen and (max-width:450px) {
+        font-size: 1.5rem;
+    }
 
-
-
+    @media screen and (min-width:451px) and (max-width:960px) {
+        font-size: 2rem;
+    }
 
 }
+

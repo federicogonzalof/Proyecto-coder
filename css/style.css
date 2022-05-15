@@ -206,20 +206,45 @@ main section article .p5-historia {
   text-align: center;
   align-items: center;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .main-modelos .sectionmod div h1 {
   color: #F6F54D;
   text-shadow: 2px 2px 2px black;
   font-size: 3rem;
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod div h1 {
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+}
 .main-modelos .sectionmod div p {
   font-size: 2rem;
   text-align: left;
   margin: 40px;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod div p {
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
 }
 .main-modelos .sectionmod2 {
   display: flex;
@@ -232,14 +257,41 @@ main section article .p5-historia {
   font-size: 2.5rem;
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 div h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 .main-modelos .sectionmod2 div p {
   font-size: 2rem;
   text-align: left;
   margin: 40px;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 div p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod2 img {
   width: 40%;
   height: auto;
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .main-modelos .sectionmod {
   display: flex;
@@ -258,9 +310,28 @@ main section article .p5-historia {
   text-align: left;
   margin: 40px;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod div p {
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .main-modelos .sectionmod2 {
   display: flex;
@@ -278,9 +349,28 @@ main section article .p5-historia {
   text-align: left;
   margin: 40px;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 div p {
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod2 img {
   width: 40%;
   height: auto;
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .main-tutoriales {
@@ -294,38 +384,106 @@ main section article .p5-historia {
   font-size: 4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.main-tutoriales section div div {
-  padding-left: 3rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+@media screen and (max-width: 450px) {
+  .main-tutoriales h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
 }
-.main-tutoriales section div div p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
-  padding-top: 2rem;
-  align-items: center;
-}
-.main-tutoriales section div div {
-  padding-left: 3rem;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-}
-.main-tutoriales section div div p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
-  padding-top: 2rem;
-  align-items: center;
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    border: none;
+    margin-right: 0;
+    text-align: justify;
+  }
 }
 .main-tutoriales section div div {
   padding-left: 3rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div iframe {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+}
 .main-tutoriales section div div p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 2rem;
   align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div p {
+    font-size: 1.8rem;
+    padding-top: 0;
+  }
+}
+.main-tutoriales section div div {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div iframe {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+}
+.main-tutoriales section div div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div p {
+    font-size: 1.8rem;
+    padding-top: 0;
+  }
+}
+.main-tutoriales section div div {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div iframe {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+}
+.main-tutoriales section div div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales section div div p {
+    font-size: 1.8rem;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-tutoriales {
+    padding-top: 2rem;
+  }
 }
 
 .main-index {
@@ -355,8 +513,28 @@ main section article .p5-historia {
   color: #fafafa;
   text-shadow: 2px 2px 2px black;
 }
+@media screen and (max-width: 450px) {
+  .main-index .hero h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .hero h1 {
+    font-size: 3.6rem;
+  }
+}
 .main-index .hero p {
   width: 60%;
+}
+@media screen and (max-width: 450px) {
+  .main-index .hero p {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .hero p {
+    width: 50%;
+  }
 }
 .main-index .hero a {
   background-color: #553528;
@@ -366,6 +544,14 @@ main section article .p5-historia {
   margin-top: 3rem;
   padding: 10px;
   border-radius: 10px;
+}
+@media screen and (max-width: 450px) {
+  .main-index .hero a {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    padding: 5px;
+    border-radius: 7px;
+  }
 }
 .main-index .hero .animacion-boton:hover {
   animation: change-size 3s;
@@ -395,6 +581,16 @@ main section article .p5-historia {
   color: #F6F54D;
   text-shadow: 2px 2px 2px black;
 }
+@media screen and (max-width: 450px) {
+  .main-index section h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index section h2 {
+    font-size: 3rem;
+  }
+}
 .main-index section p {
   color: #e5e5e5;
 }
@@ -412,6 +608,11 @@ main section article .p5-historia {
   padding: 5px;
   align-items: center;
 }
+@media screen and (max-width: 450px) {
+  .main-index .reuniones img {
+    align-items: flex-end;
+  }
+}
 .main-index .reuniones h2 {
   padding: 20px;
 }
@@ -424,11 +625,40 @@ main section article .p5-historia {
   column-gap: 20px;
   row-gap: 20px;
 }
+@media screen and (max-width: 450px) {
+  .main-index .reuniones .imagenes-reuniones {
+    border: none;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 250px;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .reuniones .imagenes-reuniones {
+    border: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 350px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+}
 .main-index .reuniones .primer-img {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+@media screen and (max-width: 450px) {
+  .main-index .reuniones .primer-img {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 .main-index .reuniones div img {
   width: 100%;
@@ -438,15 +668,71 @@ main section article .p5-historia {
   -webkit-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: -3px 2px 7px 3px rgba(0, 0, 0, 0.48);
 }
+@media screen and (max-width: 450px) {
+  .main-index .reuniones div img {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 451px) and (max-width: 960px) {
+  .main-index .reuniones div img {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+}
 .main-index .reuniones div img:hover {
   transform: scale(1.05);
   transition: 1s;
+}
+@media screen and (max-width: 450px) {
+  .main-index .reuniones {
+    font-size: 2rem;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .reuniones {
+    font-size: 2rem;
+    margin: 0;
+  }
 }
 .main-index .flex-mapa {
   display: flex;
   align-items: center;
   padding: 10rem;
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .flex-mapa .map-responsive {
+    overflow: hidden;
+    padding-bottom: 350px;
+    position: relative;
+    height: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-index .flex-mapa {
+    display: none;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index .flex-mapa {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-index {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-index {
+    font-size: 2rem;
+  }
+}
+
 .main-contacto {
   background-color: #553528;
   font-size: 2rem;
@@ -458,16 +744,52 @@ main section article .p5-historia {
   font-size: 3rem;
   color: yellow;
 }
+@media screen and (max-width: 450px) {
+  .main-contacto .contactanos h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-contacto .contactanos h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.8rem;
+  }
+}
 .main-contacto .contactanos h2 {
   font-size: 2.5rem;
   color: #F6F54D;
   text-shadow: 2px 2px 2px #070101;
+}
+@media screen and (max-width: 450px) {
+  .main-contacto .contactanos h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-contacto .contactanos h2 {
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+  }
 }
 .main-contacto .form {
   padding: 3rem 20% 3rem 20%;
   color: yellow;
   border: 2px 2px 2px #e68d08;
   text-align: left;
+}
+@media screen and (max-width: 450px) {
+  .main-contacto {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-contacto {
+    font-size: 1.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
