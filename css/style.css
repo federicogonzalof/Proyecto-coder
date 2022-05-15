@@ -195,4 +195,87 @@ main section article .p5-historia {
   }
 }
 
+.main-modelos {
+  text-align: center;
+  background-color: #553528;
+  color: aliceblue;
+}
+.main-modelos .sectionmod {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.main-modelos .sectionmod div h1 {
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+  font-size: 3rem;
+  text-align: center;
+}
+.main-modelos .sectionmod img {
+  width: 40%;
+  height: auto;
+}
+.main-modelos .sectionmod2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.main-modelos .sectionmod2 div h2 {
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main-modelos .sectionmod2 div p {
+  font-size: 2rem;
+  text-align: left;
+  margin: 40px;
+}
+.main-modelos .sectionmod2 img {
+  width: 40%;
+  height: auto;
+}
+.main-modelos .sectionmod {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.main-modelos .sectionmod div h2 {
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main-modelos .sectionmod div p {
+  font-size: 2rem;
+  text-align: left;
+  margin: 40px;
+}
+.main-modelos .sectionmod img {
+  width: 40%;
+  height: auto;
+}
+.main-modelos .sectionmod2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.main-modelos .sectionmod2 div h2 {
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main-modelos .sectionmod2 div p {
+  font-size: 2rem;
+  text-align: left;
+  margin: 40px;
+}
+.main-modelos .sectionmod2 img {
+  width: 40%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
