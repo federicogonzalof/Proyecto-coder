@@ -1,0 +1,74 @@
+.main-tutoriales {
+    background-color: nth($colores, 5);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: aliceblue;
+
+    h1 {
+        color: nth($colores, 8);
+        font-size: 4rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    section {
+        div {
+            div {
+                padding-left: 3rem;
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+
+                iframe {}
+            }
+
+            div {
+                p {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 2rem;
+                    padding-top: 2rem;
+                    align-items: center;
+                }
+            }
+        }
+
+
+        div {
+            div {
+                padding-left: 3rem;
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+
+                iframe {}
+
+            }
+
+            div {
+                p {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 2rem;
+                    padding-top: 2rem;
+                    align-items: center;
+                }
+            }
+        }
+
+        div {
+            div {
+                padding-left: 3rem;
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+
+                iframe {}
+            }
+
+            div {
+
+                p {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 2rem;
+                    padding-top: 2rem;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

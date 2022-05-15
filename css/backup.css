@@ -230,123 +230,10 @@ p {
     font-size: 2.5rem;
 }
 
-
-.main-historia {
-    background-color: #553528;
-}
-
-.p-historia {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 200;
-    font-size: 1.7rem;
-}
-
-.primerhistoria::first-letter{
-    float: left;
-    font-size: 5rem;
-    line-height: 1;
-    margin: 0.2rem;
-    margin-right: 0.6rem;
-    padding: 1rem;
-    background: #e68d08;
-    border: 0.2rem solid black;     
-}
-
-.p4-historia {
-    margin-top: 4rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.6rem;
-
-}
-
-.p5-historia {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-}
-
-.section-his {
-    text-align: center;
-}
-
-.section-his img {
-    height: auto;
-    width: 50%;
-}
-
-.main-modelos {
-    background-color: #553528;
-    text-align: center;
-}
-
-.main-modelos h2 {
-    text-align: center;
-}
-
-.h1-modelos {
-    color: #F6F54D;
-    text-shadow: 2px 2px 2px black;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.h2-modelos {
-    color: #F6F54D;
-    text-shadow: 2px 2px 2px black;
-    font-size: 2.5rem;
-    text-align: left;
-}
-
-.p-modelos {
-    font-size: 2rem;
-    text-align: left;
-    margin: 40px;
-}
-
-.sectionmod {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-}
-
-.sectionmod2 {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
-.sectionmod img {
-    width: 40%;
-    height: auto;
-}
-
-.sectionmod2 img {
-    width: 40%;
-    height: auto;
-}
-
-
-.main-tutoriales {
-    background-color: #553528;
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-}
-
 .titulo-tutoriales {
     color: #F6F54D;
     font-size: 4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.main-tutoriales div section {
-    padding-left: 3rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
 }
 
 .h2-tutoriales {
@@ -357,14 +244,6 @@ p {
     padding-top: 2rem;
 
 }
-
-.p-tutoriales {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-    padding-top: 2rem;
-    align-items: center;
-}
-
 
 /*-----FOOTER-----*/
 

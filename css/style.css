@@ -212,6 +212,11 @@ main section article .p5-historia {
   font-size: 3rem;
   text-align: center;
 }
+.main-modelos .sectionmod div p {
+  font-size: 2rem;
+  text-align: left;
+  margin: 40px;
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
@@ -276,6 +281,51 @@ main section article .p5-historia {
 .main-modelos .sectionmod2 img {
   width: 40%;
   height: auto;
+}
+
+.main-tutoriales {
+  background-color: #553528;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: aliceblue;
+}
+.main-tutoriales h1 {
+  color: #F6F54D;
+  font-size: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-tutoriales section div div {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.main-tutoriales section div div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+.main-tutoriales section div div {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.main-tutoriales section div div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  padding-top: 2rem;
+  align-items: center;
+}
+.main-tutoriales section div div {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.main-tutoriales section div div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+  padding-top: 2rem;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
