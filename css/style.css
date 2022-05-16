@@ -212,6 +212,12 @@ main section article .p5-historia {
     flex-direction: column;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .main-modelos .sectionmod div h1 {
   color: #F6F54D;
   text-shadow: 2px 2px 2px black;
@@ -222,6 +228,12 @@ main section article .p5-historia {
   .main-modelos .sectionmod div h1 {
     padding-top: 20px;
     font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod div h1 {
+    padding-top: 30px;
+    font-size: 2.8rem;
   }
 }
 .main-modelos .sectionmod div p {
@@ -235,11 +247,25 @@ main section article .p5-historia {
     margin: 20px;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod div p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
 }
 @media screen and (max-width: 450px) {
+  .main-modelos .sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-modelos .sectionmod img {
     width: 90%;
     height: auto;
@@ -264,6 +290,13 @@ main section article .p5-historia {
     padding-top: 20px;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 div h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 .main-modelos .sectionmod2 div p {
   font-size: 2rem;
   text-align: left;
@@ -276,11 +309,25 @@ main section article .p5-historia {
     margin: 20px;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 div p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod2 img {
   width: 40%;
   height: auto;
 }
 @media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-modelos .sectionmod2 img {
     width: 90%;
     height: auto;
@@ -305,6 +352,13 @@ main section article .p5-historia {
   font-size: 2.5rem;
   text-align: center;
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod div h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 .main-modelos .sectionmod div p {
   font-size: 2rem;
   text-align: left;
@@ -316,11 +370,25 @@ main section article .p5-historia {
     margin: 20px;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod div p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+  }
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
 }
 @media screen and (max-width: 450px) {
+  .main-modelos .sectionmod img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-modelos .sectionmod img {
     width: 90%;
     height: auto;
@@ -344,6 +412,13 @@ main section article .p5-historia {
   font-size: 2.5rem;
   text-align: center;
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 div h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 .main-modelos .sectionmod2 div p {
   font-size: 2rem;
   text-align: left;
@@ -351,6 +426,13 @@ main section article .p5-historia {
 }
 @media screen and (max-width: 450px) {
   .main-modelos .sectionmod2 div p {
+    text-align: justify;
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 div p {
+    font-size: 2rem;
     text-align: justify;
     margin: 20px;
   }
@@ -366,7 +448,20 @@ main section article .p5-historia {
     padding-bottom: 20px;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 img {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
 @media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-modelos .sectionmod2 {
     display: flex;
     flex-direction: column;
@@ -390,12 +485,27 @@ main section article .p5-historia {
     text-align: center;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 450px) {
   .main-tutoriales section div {
     display: flex;
     flex-direction: column-reverse;
     grid-template-rows: auto;
     grid-template-columns: 1fr;
+    border: none;
+    margin-right: 0;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div {
+    display: flex;
+    flex-direction: column-reverse;
     border: none;
     margin-right: 0;
     text-align: justify;
@@ -413,10 +523,24 @@ main section article .p5-historia {
     padding-top: 1rem;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div div {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
 @media screen and (max-width: 450px) {
   .main-tutoriales section div div iframe {
     width: 90%;
     height: auto;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div div iframe {
+    width: 100%;
+    height: 300px;
     padding: 1rem;
   }
 }
@@ -429,6 +553,12 @@ main section article .p5-historia {
 @media screen and (max-width: 450px) {
   .main-tutoriales section div div p {
     font-size: 1.8rem;
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div div p {
+    font-size: 2rem;
     padding-top: 0;
   }
 }
@@ -456,6 +586,12 @@ main section article .p5-historia {
     padding-top: 0;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div div p {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+}
 .main-tutoriales section div div {
   padding-left: 3rem;
   padding-bottom: 2rem;
@@ -480,7 +616,18 @@ main section article .p5-historia {
     padding-top: 0;
   }
 }
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-tutoriales section div div p {
+    font-size: 2rem;
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 450px) {
+  .main-tutoriales {
+    padding-top: 2rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-tutoriales {
     padding-top: 2rem;
   }
