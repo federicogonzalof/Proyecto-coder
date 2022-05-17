@@ -1,6 +1,6 @@
 
 main {
-    background-color: $bg-color-general;
+    @extend %bgfs;
 
     section {
         text-align: center;

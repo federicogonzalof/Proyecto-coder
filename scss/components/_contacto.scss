@@ -1,6 +1,5 @@
 .main-contacto {
-    background-color: #553528;
-    font-size: 2rem;
+    @extend %bgfs;
 
     .contactanos {
         h1 {

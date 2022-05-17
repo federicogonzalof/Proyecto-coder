@@ -50,11 +50,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.904);
   color: rgb(85, 204, 184);
 }
-footer div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 footer div .divlogo {
   display: grid;
   justify-content: space-around;
@@ -648,10 +643,7 @@ main section article .p5-historia {
   background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
   background-position: center;
   background-size: cover;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .main-index .hero h1 {
   text-align: center;
@@ -937,6 +929,12 @@ main section article .p5-historia {
   .main-contacto {
     font-size: 1.8rem;
   }
+}
+
+footer div, .main-index .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

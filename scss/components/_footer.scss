@@ -5,9 +5,7 @@ footer {
     color: rgb(85, 204, 184);
 
     div {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @extend %flex;
 
         .divlogo {
             a {

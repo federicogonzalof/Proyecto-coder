@@ -1,8 +1,7 @@
 .main-index {
-    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: nth($colores, 5);
+    @extend %bgfs;
 
     .hero {
         width: 100%;
@@ -13,11 +12,9 @@
         background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
         background-position: center;
         background-size: cover;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+        @extend %flex;
+        
 
 
         h1 {
