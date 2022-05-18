@@ -1,6 +1,14 @@
 
-main {
+.main-historia {
     background-color: $bg-color-general;
+
+    h1 {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        font-size: 3rem;
+        color: yellow;
+    }
 
     section {
         text-align: center;

@@ -1,11 +1,14 @@
 footer {
-    font-size: 1.8rem;
     padding: 3rem;
-    background-color: rgba(0, 0, 0, 0.904);
-    color: rgb(85, 204, 184);
+    background-color: map-get($footer, background-color);
+    color: map-get($footer , color);
+    font-size: map-get($footer , font-size);
+    padding: map-get($footer, padding);
 
     div {
-        @extend %flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .divlogo {
             a {
@@ -22,10 +25,7 @@ footer {
         }
 
         div {
-            font-size: 2rem;
             text-align: center;
-            color: rgb(85, 204, 184);
-            text-shadow: 2px 2px 2px black;
             margin-right: 0;
 
             a {

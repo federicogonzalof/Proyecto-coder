@@ -45,14 +45,15 @@ header nav div div ul li a {
 }
 
 footer {
-  font-size: 1.8rem;
   padding: 3rem;
   background-color: rgba(0, 0, 0, 0.904);
   color: rgb(85, 204, 184);
+  font-size: 1.8rem;
+  padding: 3rem;
 }
 footer div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 footer div .divlogo {
@@ -66,10 +67,7 @@ footer div .divlogo a img {
   height: auto;
 }
 footer div div {
-  font-size: 2rem;
   text-align: center;
-  color: rgb(85, 204, 184);
-  text-shadow: 2px 2px 2px black;
   margin-right: 0;
 }
 footer div div a img {
@@ -112,20 +110,27 @@ footer div div a img {
   }
 }
 
-main {
+.main-historia {
   background-color: #553528;
 }
-main section {
+.main-historia h1 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  color: yellow;
+}
+.main-historia section {
   text-align: center;
 }
-main section img {
+.main-historia section img {
   height: auto;
   width: 50%;
 }
-main section article {
+.main-historia section article {
   color: aliceblue;
 }
-main section article .p-historia {
+.main-historia section article .p-historia {
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -134,7 +139,7 @@ main section article .p-historia {
   font-weight: 200;
   font-size: 1.7rem;
 }
-main section article .p-historia::first-letter {
+.main-historia section article .p-historia::first-letter {
   float: left;
   font-size: 4rem;
   line-height: 1;
@@ -145,52 +150,52 @@ main section article .p-historia::first-letter {
   border: 0.2rem solid black;
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  main section article .p-historia::first-letter {
+  .main-historia section article .p-historia::first-letter {
     font-size: 3rem;
     padding: 0.5rem;
   }
 }
 @media screen and (max-width: 450px) {
-  main section article .p-historia::first-letter {
+  .main-historia section article .p-historia::first-letter {
     font-size: 2rem;
     padding: 0.3rem;
   }
 }
 @media screen and (max-width: 450px) {
-  main section article .p-historia {
+  .main-historia section article .p-historia {
     text-align: justify;
     font-weight: 100;
     font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  main section article .p-historia {
+  .main-historia section article .p-historia {
     font-weight: 100;
     text-align: justify;
   }
 }
-main section article .p4-historia {
+.main-historia section article .p4-historia {
   margin-top: 4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.6rem;
 }
 @media screen and (max-width: 450px) {
-  main section article .p4-historia {
+  .main-historia section article .p4-historia {
     font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  main section article .p4-historia {
+  .main-historia section article .p4-historia {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
 }
-main section article .p5-historia {
+.main-historia section article .p5-historia {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5rem;
 }
 @media screen and (max-width: 450px) {
-  main section article .p5-historia {
+  .main-historia section article .p5-historia {
     font-size: 1.5rem;
   }
 }
@@ -648,8 +653,8 @@ main section article .p5-historia {
   background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(../multimedia/images/backhero.jpeg);
   background-position: center;
   background-size: cover;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -909,6 +914,7 @@ main section article .p5-historia {
   font-size: 2.5rem;
   color: #F6F54D;
   text-shadow: 2px 2px 2px #070101;
+  text-align: center;
 }
 @media screen and (max-width: 450px) {
   .main-contacto .contactanos h2 {
