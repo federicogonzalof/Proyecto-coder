@@ -1,5 +1,5 @@
 .main-tutoriales {
-    @extend %bgfs;
+    background-color: nth($colores, 5);
     padding-left: 2rem;
     padding-right: 2rem;
     color: aliceblue;

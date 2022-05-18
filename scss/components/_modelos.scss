@@ -1,6 +1,6 @@
 .main-modelos {
     text-align: center;
-    @extend %bgfs;
+    background-color: nth($colores, 5);
     color: aliceblue;
 
     .sectionmod {

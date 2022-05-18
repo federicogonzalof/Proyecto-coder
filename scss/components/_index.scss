@@ -1,7 +1,8 @@
 .main-index {
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    @extend %bgfs;
+    background-color: nth($colores, 5);
 
     .hero {
         width: 100%;
