@@ -8,6 +8,12 @@ html {
   font-size: 62.5%;
 }
 
+.main-index .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   background-color: #120907;
 }
@@ -207,9 +213,10 @@ footer div div a img {
 }
 .main-modelos .sectionmod {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
 }
 @media screen and (max-width: 450px) {
   .main-modelos .sectionmod {
@@ -259,6 +266,26 @@ footer div div a img {
     margin: 20px;
   }
 }
+.main-modelos .sectionmod div .h2-modelos {
+  color: #F6F54D;
+  text-shadow: 2px 2px 2px black;
+  font-size: 3rem;
+  text-align: center;
+}
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod div .h2-modelos {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod div .h2-modelos {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 .main-modelos .sectionmod img {
   width: 40%;
   height: auto;
@@ -279,146 +306,37 @@ footer div div a img {
 }
 .main-modelos .sectionmod2 {
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
-}
-.main-modelos .sectionmod2 div h2 {
-  color: #F6F54D;
-  text-shadow: 2px 2px 2px black;
-  font-size: 2.5rem;
-  text-align: center;
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod2 div h2 {
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 20px;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod2 div h2 {
-    font-size: 2.3rem;
-    text-align: center;
-    padding-top: 20px;
-  }
-}
-.main-modelos .sectionmod2 div p {
-  font-size: 2rem;
-  text-align: left;
-  margin: 40px;
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod2 div p {
-    font-size: 2rem;
-    text-align: justify;
-    margin: 20px;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod2 div p {
-    font-size: 2rem;
-    text-align: justify;
-    margin: 20px;
-  }
-}
-.main-modelos .sectionmod2 img {
-  width: 40%;
-  height: auto;
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod2 img {
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod2 img {
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod2 {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.main-modelos .sectionmod {
-  display: flex;
   justify-content: space-around;
-  text-align: center;
-  align-items: center;
-}
-.main-modelos .sectionmod div h2 {
-  color: #F6F54D;
-  text-shadow: 2px 2px 2px black;
-  font-size: 2.5rem;
-  text-align: center;
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod div h2 {
-    font-size: 2.3rem;
-    text-align: center;
-    padding-top: 20px;
-  }
-}
-.main-modelos .sectionmod div p {
-  font-size: 2rem;
-  text-align: left;
-  margin: 40px;
+  flex-direction: row-reverse;
 }
 @media screen and (max-width: 450px) {
-  .main-modelos .sectionmod div p {
-    text-align: justify;
-    margin: 20px;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod div p {
-    font-size: 2rem;
-    text-align: justify;
-    margin: 20px;
-  }
-}
-.main-modelos .sectionmod img {
-  width: 40%;
-  height: auto;
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod img {
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod img {
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .main-modelos .sectionmod {
+  .main-modelos .sectionmod2 {
     display: flex;
     flex-direction: column;
   }
 }
-.main-modelos .sectionmod2 {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+@media screen and (min-width: 451px) and (max-width: 960px) {
+  .main-modelos .sectionmod2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
-.main-modelos .sectionmod2 div h2 {
+.main-modelos .sectionmod2 div .h2-modelos {
   color: #F6F54D;
   text-shadow: 2px 2px 2px black;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  .main-modelos .sectionmod2 div .h2-modelos {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
 @media screen and (min-width: 451px) and (max-width: 960px) {
-  .main-modelos .sectionmod2 div h2 {
+  .main-modelos .sectionmod2 div .h2-modelos {
     font-size: 2.3rem;
     text-align: center;
     padding-top: 20px;
@@ -431,6 +349,7 @@ footer div div a img {
 }
 @media screen and (max-width: 450px) {
   .main-modelos .sectionmod2 div p {
+    font-size: 2rem;
     text-align: justify;
     margin: 20px;
   }
@@ -461,12 +380,6 @@ footer div div a img {
   }
 }
 @media screen and (max-width: 450px) {
-  .main-modelos .sectionmod2 {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 451px) and (max-width: 960px) {
   .main-modelos .sectionmod2 {
     display: flex;
     flex-direction: column;
@@ -654,9 +567,6 @@ footer div div a img {
   background-position: center;
   background-size: cover;
   flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .main-index .hero h1 {
   text-align: center;
