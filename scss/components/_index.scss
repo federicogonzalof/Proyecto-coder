@@ -6,7 +6,7 @@
 
     .hero {
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         border: solid 2px #0be9d4;
         text-shadow: #070101 3px 3px 3px;
         color: #fafafa;
@@ -15,8 +15,6 @@
         background-size: cover;
         flex-direction: column;
         @extend %flex;
-        
-        
 
 
         h1 {
